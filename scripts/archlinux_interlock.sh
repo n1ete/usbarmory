@@ -45,7 +45,7 @@ sudo usermod --shell /bin/bash interlock
 sudo passwd interlock
 
 # setup tamago
-cd /tmp && curl -o https://github.com/f-secure-foundry/tamago-go/releases/download/tamago-go1.15.5/${TAMAGO_PKG}
+cd /tmp && curl -o https://github.com/f-secure-foundry/tamago-go/releases/download/tamago-go1.20.7/${TAMAGO_PKG}
 sudo tar -C / -xvzf ${TAMAGO_PKG}
 
 # setup golang
