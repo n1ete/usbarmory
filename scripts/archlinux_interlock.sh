@@ -7,8 +7,8 @@
 PARTITION_START="6820MB"		
 
 # GO package version
-GO_PKG="go1.15.5.linux-armv7l.tar.gz"
-TAMAGO_PKG="tamago-go1.15.5.linux-armv7l.tar.gz"
+GO_PKG="go1.20.7.linux-armv7l.tar.gz"
+TAMAGO_PKG="tamago-go1.20.7.linux-armv7l.tar.gz"
 
 # install dependencies
 su -c "systemctl restart systemd-resolved"
