@@ -3,7 +3,7 @@ set -e
 
 # name of the ethernet gadget interface on the host
 USB_IFACE=${1:-usb0}
-USB_IFACE_IP=10.0.0.1
+USB_IFACE_IP=10.0.0.2
 USB_IFACE_NET=10.0.0.0/24
 # host interface to use for upstream connection
 UPSTREAM_IFACE=${2:-wlan0}
